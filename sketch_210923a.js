@@ -14,7 +14,6 @@ function draw() {
     stroke('green');
     triangle(0 - ((w/w)*i), h = ((w/w)*i), w/2, 0, w, h - ((h/h/2)*i));
     
-    
   }
   
   translate(w/200, 0);
@@ -34,7 +33,7 @@ function draw() {
   }
   
   noLoop();
-  
+ 
   save("20210923.png");
   
 }
